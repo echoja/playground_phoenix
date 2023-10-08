@@ -24,6 +24,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 - [ ] Elixir 속성 공부
 - [ ] 회원가입 + 로그인. 별 다른 기능 없이 닉네임만 입력하면 바로 로그인될 수 있도록 함. (로그인 버튼을 눌러야 로그인이 됨) (사용자 DB 모델링. 데이터 CREATE 만)
 - [ ] 세션이 나가지면 바로 로그아웃. (쿠키 같은 건 없도록 함)
+- [ ] 위 내용까지 fly.io 에 배포. (+ DB 마이그레이션)
 - [ ] 같은 닉네임으로 다른 사람이 로그인되어 있을 때 로그인 불가. (다른 탭으로 확인 가능)
 - [ ] 로그인 불가는 입력창에 닉네임을 입력하면서 실시간으로 알 수 있어야 함.
 - [ ] TODO 기능 추가 (DB 모델링, 간단한 CRUD)
@@ -31,3 +32,4 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 - [ ] fly.io 의 스토리지 사용하여 TODO에 간단한 이미지 업로드할 수 있도록 하기.
 - [ ] 쿠키 등을 이용하여 세션 유지하기.
 - [ ] 구글 로그인 붙이기
+- [ ] ci/cd 붙이기 (푸쉬하면 fly.io 에 자동으로 배포되도록)
